@@ -13,17 +13,27 @@
 })();
 
 // Download button
-document.getElementById('btn-con').addEventListener('click', function() {
-    // Create an anchor element
-    var downloadLink = document.createElement('a');
-    // Set the href attribute to the URL of the file to be downloaded
-    downloadLink.href = '';
-    // Set the download attribute to specify the filename
-    downloadLink.download = 'filename.ext';
-    // Append the anchor element to the body
-    document.body.appendChild(downloadLink);
-    // Trigger a click event on the anchor element
-    downloadLink.click();
-    // Remove the anchor element from the body
-    document.body.removeChild(downloadLink);
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    var downloadBtn = document.querySelector('.main-btn');
+    
+    // Add click event listener to the button
+    downloadBtn.addEventListener('click', function() {
+        // Path to your resume file
+        var resumePath = 'MichalResume.pdf';
+        
+        // Create an anchor element
+        var link = document.createElement('a');
+        link.href = resumePath;
+        link.download = 'MichalResume.pdf'; // specify the filename for the download
+        
+        // Append the anchor element to the document body
+        document.body.appendChild(link);
+        
+        // Trigger the click event on the anchor element
+        link.click();
+        
+        // Clean up: remove the anchor element from the document body
+        document.body.removeChild(link);
+    });
 });
