@@ -8,8 +8,8 @@ I am a MICHAL NITHESH passionate about Web Development. I have experience in Web
 
 ## Contact Me
 
-- Email: michalnithesh@gmail.com
-- LinkedIn: https://www.linkedin.com/in/michal-nithesh-643bb429a/?originalSubdomain=in
-- Website: https://nithesh14.github.io/
+- Email    :     michalnithesh@gmail.com
+- LinkedIn :     https://www.linkedin.com/in/michal-nithesh-643bb429a/?originalSubdomain=in
+- Website  :     https://nithesh14.github.io/
 
 Feel free to reach out to me if you have any questions or opportunities for collaboration!
