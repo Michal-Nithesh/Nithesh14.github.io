@@ -1,4 +1,4 @@
-e# Portfolio
+# Portfolio
 
 Welcome to my portfolio! This repository contains a collection of projects and works that showcase my skills and experiences in Web Development.
 
