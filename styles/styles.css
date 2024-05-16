@@ -919,3 +919,32 @@
   }
   
   /*# sourceMappingURL=styles.css.map */
+
+
+
+
+
+
+.text h1 .letter {
+    display: inline-block;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-transition: color 0.1s ease;
+    transition: color 0.1s ease;
+  }
+  
+.text h1 .letter:hover {
+    color: #08fdd8;
+  }
+
+  .text h1 .highlighted-name {
+    color: #08d665;
+  }
+
+  .text h1 .letter:hover {
+    color: #08fdd8;
+  }
