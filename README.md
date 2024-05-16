@@ -1,10 +1,10 @@
-# Portfolio
+e# Portfolio
 
 Welcome to my portfolio! This repository contains a collection of projects and works that showcase my skills and experiences in Web Development.
 
 ## About Me
 
-I am a MICHAL NITHESH passionate about Web Development. I have experience in Web Development, technologies. 
+I am MICHAL NITHESH passionate about Web Development. I have experience in Web Development, technologies. 
 
 ## Contact Me
 
