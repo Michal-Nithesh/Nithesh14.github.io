@@ -577,9 +577,12 @@
   }
   .contact-content-con .right-contact .submit-btn {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
-  
+
   /*Independed components*/
   .btn-con {
     display: flex;
@@ -926,11 +929,7 @@
   
   /*# sourceMappingURL=styles.css.map */
 
-
-
-
-
-
+  /* Animation */
 .text h1 .letter {
     display: inline-block;
     -webkit-animation-duration: 1s;

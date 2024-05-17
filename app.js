@@ -54,15 +54,3 @@ if (!window.matchMedia("(max-width: 1500px)").matches) {
         stagger: 0.25
     });
 }
-
-gsap.from(".skill-box", {
-    scrollTrigger: {
-        trigger: ".skill-box",
-        start: "top bottom"
-    },
-    opacity: 0,
-    y: 200,
-    duration: 1,
-    ease: "power3",
-    stagger: 0.25
-});
