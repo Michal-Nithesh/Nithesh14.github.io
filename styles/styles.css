@@ -8,6 +8,8 @@
   :root {
     --color-primary: #191d2b;
     --color-secondary: #27AE60;
+    --color-tertiary: #08d665;
+    --color-sectors: #08fdd8;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -24,6 +26,8 @@
   .light-mode {
     --color-primary: #FFFFFF;
     --color-secondary: #F56692;
+    --color-tertiary: #fc5c9c;
+    --color-sectors: #cd4dcc;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -147,7 +151,6 @@
     color: var(--color-grey-2);
     pointer-events: none;
   }
-  
   /*Header-content*/
   .header-content {
     display: grid;
@@ -941,17 +944,13 @@
     -webkit-transition: color 0.1s ease;
     transition: color 0.1s ease;
   }
-  
-.text h1 .letter:hover {
-    color: #08fdd8;
-  }
 
   .text h1 .highlighted-name {
-    color: #08d665;
+    color: var(--color-tertiary);
   }
 
   .text h1 .letter:hover {
-    color: #08fdd8;
+    color: var(--color-sectors);
   }
 
 @-webkit-keyframes rubberBand {
