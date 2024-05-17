@@ -10,33 +10,7 @@
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
     })
-})();
-
-// Download button
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the button element
-    var downloadBtn = document.querySelector('.main-btn');
-    
-    // Add click event listener to the button
-    downloadBtn.addEventListener('click', function() {
-        // Path to your resume file
-        var resumePath = 'MichalResume.pdf';
-        
-        // Create an anchor element
-        var link = document.createElement('a');
-        link.href = resumePath;
-        link.download = 'MichalResume.pdf'; // specify the filename for the download
-        
-        // Append the anchor element to the document body
-        document.body.appendChild(link);
-        
-        // Trigger the click event on the anchor element
-        link.click();
-        
-        // Clean up: remove the anchor element from the document body
-        document.body.removeChild(link);
-    });
-});
+})();      
 
 
 
