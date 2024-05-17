@@ -930,7 +930,7 @@
   /*# sourceMappingURL=styles.css.map */
 
   /* Animation */
-.text h1 .letter {
+.right-header .text h1 .letter {
     display: inline-block;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
