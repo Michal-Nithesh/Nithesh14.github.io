@@ -204,6 +204,12 @@
     margin: 1.5rem 0;
     line-height: 2rem;
   }
+  .btn-con{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
   
   /*About*/
   .about-container {
@@ -921,7 +927,9 @@
   /*# sourceMappingURL=styles.css.map */
 
 
-/* Animation */
+
+
+
 
 .text h1 .letter {
     display: inline-block;
@@ -942,10 +950,12 @@
   .text h1 .highlighted-name {
     color: #08d665;
   }
-  
-/*RubberBand Animation*/
 
-  @-webkit-keyframes rubberBand {
+  .text h1 .letter:hover {
+    color: #08fdd8;
+  }
+
+@-webkit-keyframes rubberBand {
     from {
       -webkit-transform: scale3d(1, 1, 1);
               transform: scale3d(1, 1, 1);
@@ -1010,4 +1020,4 @@
   .rubberBand {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
-  }  
+  }
