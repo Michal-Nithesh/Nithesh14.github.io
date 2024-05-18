@@ -662,6 +662,32 @@
   .about-container .left-about p {
     padding-left: 0;
   }
+
+  /* Success Card */
+  .success-card {
+    position: fixed;
+    right: 25px;
+    bottom: 70px;
+    width: 320px;
+    height: 100px;
+    background: darkgreen;
+    border-radius: 1000px;
+    display: none;
+  }
+
+  .success-card .text {
+    color: white;
+    padding: 12px;
+  }
+  
+  .success-card .text h3 {
+    color: #ff771c;
+    text-align: center;
+  }
+  
+  .success-card .text p {
+    text-indent: 10px;
+  }
   
   @media screen and (max-width: 600px) {
     header {
@@ -692,6 +718,9 @@
       font-size: 2.5rem !important;
       text-align: center;
       padding-top: 3rem;
+    }
+    .right-header .text h1 {
+      font-size: 2rem;
     }
   
     .header-content .left-header .image {
