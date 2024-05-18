@@ -54,3 +54,14 @@ if (!window.matchMedia("(max-width: 1500px)").matches) {
         stagger: 0.25
     });
 }
+
+// Send-Form button
+document.addEventListener('DOMContentLoaded', function() {
+  const submitBtn = document.querySelector('.sum-btn');
+  const contactForm = document.querySelector('.contact-form');
+
+  submitBtn.addEventListener('click', function() {
+      contactForm.submit();
+  });
+});
+
